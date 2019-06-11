@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>热播</title>
+    <link rel="icon" href="../img/ico.ico" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+</head>
+
+<body>
+    <!-- <头部Logo，nav> -->
+    <header class="dis-flex-between hearder-wrapper">
+        <a href="./home.html">
+            <img class="logo-img" src="../img/JK_Logo.png" />
+        </a>
+        <div class="dis-flex-center">
+            <nav>
+                <a class="nav-list active" href="./home.html"><img class="nav-icon" src="../img/hot-active.png" />热播</a>
+                <a class="nav-list" href="#"><img class="nav-icon" src="../img/list.png" />节目单</a>
+                <a class="nav-list" href="#"><img class="nav-icon" src="../img/comment.png" />经看视评</a>
+            </nav>
+            <div class="search-wrapper">
+                <input class="search-input" type="text" value="" placeholder="搜索">
+                <img class="search-icon" src="../img/search.png" />
+            </div>
+            <div>
+                <button class="search-btn" type="button">登录</button>
+                <button class="search-btn" type="button">注册</button>
+            </div>
+        </div>
+    </header>
+    <!-- <main> -->
+    <div class="main-wrapper dis-flex">
+        <div class="hot-wrapper">
+            <!-- 轮播图 -->
+            <div id="myCarousel" class="carousel slide">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="carousel-img" src="../img/slide1.jpg" alt="First slide">
+                        <div class="carousel-name">民国建筑剧《筑梦情缘》，如何在“黄金前两集”抓住观众？</div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="../img/slide2.jpg" alt="Second slide">
+                        <div class="carousel-name">民国建筑剧《筑梦情缘》，如何在“黄金前两集”抓住观众？</div>
+                    </div>
+                </div>
+            </div>
+            <!-- 节目分类 -->
+            <div>
+                <section>
+                    <h3 class="rbprogram-title">
+                        <img class="title-img" src="../img/qb.png" />
+                        <span>当前热播电视节目</span>
+                    </h3>
+                    <ul class="dis-flex">
+                        <li class="rbprogram-list ">
+                            <img class="item-img" src="../img/img.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="rbprogram-list ">
+                            <img class="item-img" src="../img/img.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="rbprogram-list ">
+                            <img class="item-img" src="../img/img.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="rbprogram-list ">
+                            <img class="item-img" src="../img/img.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                    </ul>
+                </section>
+                <section class="dsj">
+                    <div class="dis-flex-between program-head">
+                        <h3 class="program-title">
+                            <img class="title-img" src="../img/dsj.png" />
+                            <span>电视剧</span>
+                        </h3>
+                        <span>更多》</span>
+                    </div>
+                    <ul class="dis-flex">
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                    </ul>
+                </section>
+                <section class="dy">
+                    <div class="dis-flex-between program-head">
+                        <h3 class="program-title">
+                            <img class="title-img" src="../img/dy.png" />
+                            <span>电视剧</span>
+                        </h3>
+                        <span>更多》</span>
+                    </div>
+                    <ul class="dis-flex">
+                        <li class="program-list ">
+                            <div class="pro-rel">
+                                <p class="program-name overflow">江苏卫视</p>
+                                <p class="program-play overflow">即将播出</p>
+                                <img class="item-img" src="../img/lyb.jpg" />
+                            </div>
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <div class="pro-rel">
+                                <p class="program-name overflow">江苏卫视</p>
+                                <img class="item-img" src="../img/lyb.jpg" />
+                            </div>
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <div class="pro-rel">
+                                <p class="program-name overflow">江苏卫视</p>
+                                <img class="item-img" src="../img/lyb.jpg" />
+                            </div>
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <div class="pro-rel">
+                                <p class="program-name overflow">江苏卫视</p>
+                                <img class="item-img" src="../img/lyb.jpg" />
+                            </div>
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <div class="pro-rel">
+                                <p class="program-name overflow">江苏卫视</p>
+                                <img class="item-img" src="../img/lyb.jpg" />
+                            </div>
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <div class="pro-rel">
+                                <p class="program-name overflow">江苏卫视</p>
+                                <img class="item-img" src="../img/lyb.jpg" />
+                            </div>
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                    </ul>
+                </section>
+                <section class="zy">
+                    <div class="dis-flex-between program-head">
+                        <h3 class="program-title">
+                            <img class="title-img" src="../img/zy.png" />
+                            <span>电视剧</span>
+                        </h3>
+                        <span>更多》</span>
+                    </div>
+                    <ul class="dis-flex">
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 30%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                        <li class="program-list ">
+                            <img class="item-img" src="../img/lyb.jpg" />
+                            <div class="item-line">
+                                <p class="out-line" style="width: 50%"></p>
+                            </div>
+                            <h4 class="item-name overflow">我的真朋友剧情</h4>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="width">
+            <div class="min-main">
+            </div>
+            <div>
+                <h3 class="comment-title">经看视评</h3>
+                <ul>
+                    <li class="comment-list">
+                        <h4 class="comment-name">360度无死角全方位熬糖剧，《我只喜欢你》</h4>
+                        <div class="dis-flex comment-content">
+                            <img class="comment-img" src="../img/img.jpg" />
+                            <div>
+                                <div>
+                                    <span class="commentator-name">四年看海 温室砍材</span>
+                                    <span class="comment-time">2019-5-6</span>
+                                </div>
+                                <p class="overflow-line comment-text">情同事十一年(1872年)
+                                    3月傻啦放假了萨拉丁善良的放假了打飞机啊六点十分剁手了发结束的老封建省的浪费交了电费骄傲了的方式来的
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dis-flex padding">
+                            <span class="comment-key">复议</span>
+                            <div>
+                                <span class="operation see">12</span>
+                                <span class="operation support">12</span>
+                                <span class="operation share">12</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="comment-list">
+                        <h4 class="comment-name">360度无死角全方位熬糖剧，《我只喜欢你》</h4>
+                        <div class="dis-flex comment-content">
+                            <img class="comment-img" src="../img/img.jpg" />
+                            <div>
+                                <div>
+                                    <span class="commentator-name">四年看海 温室砍材</span>
+                                    <span class="comment-time">2019-5-6</span>
+                                </div>
+                                <p class="overflow-line comment-text">情同事十一年(1872年)
+                                    3月傻啦放假了萨拉丁善良的放假了打飞机啊六点十分剁手了发结束的老封建省的浪费交了电费骄傲了的方式来的
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dis-flex padding">
+                            <span class="comment-key">复议</span>
+                            <div>
+                                <span class="operation see">12</span>
+                                <span class="operation support">12</span>
+                                <span class="operation share">12</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="comment-list">
+                        <h4 class="comment-name">360度无死角全方位熬糖剧，《我只喜欢你》</h4>
+                        <div class="dis-flex comment-content">
+                            <img class="comment-img" src="../img/img.jpg" />
+                            <div>
+                                <div>
+                                    <span class="commentator-name">四年看海 温室砍材</span>
+                                    <span class="comment-time">2019-5-6</span>
+                                </div>
+                                <p class="overflow-line comment-text">情同事十一年(1872年)
+                                    3月傻啦放假了萨拉丁善良的放假了打飞机啊六点十分剁手了发结束的老封建省的浪费交了电费骄傲了的方式来的
+                                </p>
+                            </div>
+                        </div>
+                        <div class="dis-flex padding">
+                            <span class="comment-key">复议</span>
+                            <div>
+                                <span class="operation see">12</span>
+                                <span class="operation support">12</span>
+                                <span class="operation share">12</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+</body>
+<script src="../js/jquery2.1.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</html>

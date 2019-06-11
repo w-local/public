@@ -1,0 +1,75 @@
+
+.padding{
+    padding: 6px;
+}
+.dis-flex{
+    display: flex;
+}
+.dis-flex-center{
+    display: flex;
+    align-items: center;
+}
+.dis-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.overflow-line{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.pro-rel{
+    position: relative;
+}
+
+/* 头部 */
+.hearder-wrapper{
+    margin: 0 auto;
+    padding: 10px 8%;
+    border-bottom: 1px solid #F8F9F9;
+}
+.logo-img{
+    width: 96px;
+    height: 30px;
+}
+.nav-list{
+    margin-right: 20px;
+    color: #AFACAB;
+}
+.nav-list.active,
+.nav-list:hover{
+    color: #48B9EF;
+}
+.nav-icon{
+    width: 20px;
+    margin-right: 6px;
+    vertical-align: bottom;
+}
+.search-wrapper{
+    padding: 2px 10px;
+    margin: 0 55px 0 35px;
+    border-radius: 20px;
+    border: 1px solid #EAEAEA;
+}
+.search-input,
+.search-input::placeholder{
+    color: #AFACAB;
+    border: none;
+}
+.search-icon{
+    width: 19px;
+    height: 19px;
+}
+.search-btn{
+    color: #5d5f5c;
+    border: none;
+    outline: none;
+    background: transparent;
+}
